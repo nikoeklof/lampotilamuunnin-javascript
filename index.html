@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Lämpotilamuunnin</h1>
+        <form id="lampotilamuunnin">
+            <select name="lampotila" id="lampotilalista">
+               <option value="c to f">Celsius -> Fahrenheit</option> 
+               <option value="c to k">Celsius -> Kelvin</option>
+               <option value="f to c">Fahrenheit -> Celsius</option>
+               <option value="f to k">Fahrenheit -> Kelvin</option>
+               <option value="k to c">Kelvin -> Celsius</option>
+               <option value="k to f">Kelvin -> Fahrenheit</option>
+            </select>
+            <input id="maara" type="text">
+            <input id="laske" type="button" value="Laske">
+        </form>
+        <form id="desimaali">
+            <input type="radio" name="desimaaliin" value="desimal1" id="desimal1">
+            <label for="desimal">1 Desimaali</label>
+            <input type="radio" name="desimaaliin" value="desimal2" id="desimal2">
+            <label for="desimal2">2 Desimaalia</label>
+            <input type="radio" name="desimaaliin" value="desimal3">
+            <label for="desimal3">3 Desimaalia</label>
+        </form>
+        <h3 id="muunnos"></h3>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+body {
+    font-family: 'poppins';
+}
+
+#container {
+    display: flexbox;
+    width: 60%;
+    margin: auto;
+    margin-top: 10rem;
+}
